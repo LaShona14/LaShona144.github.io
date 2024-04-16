@@ -1,0 +1,73 @@
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Datos Personales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-all-about-cat-wallpaper-picture-image_1310631.jpg'); /* Cambia 'ruta_de_la_imagen.jpg' por la ruta de tu imagen de fondo */
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+            background-position: center; /* Centra la imagen */
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejorar la legibilidad */
+            padding: 20px;
+            border-radius: 10px; /* Bordes redondeados para el contenedor */
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        #foto {
+            float: right;
+            width: 150px;
+            height: auto;
+            margin-left: 20px;
+        }
+    </style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <div class="container">
+        <h1>Acerca de</h1>
+        <img id="foto" src="https://i.pinimg.com/originals/10/ce/8e/10ce8e3e94e0d7d0e9dc6979e7b43fb2.jpg" alt="Tu Foto">
+        <ul>
+            <li>
+                <label for="nombre">Nombre:</label>
+                <span id="nombre">Jose William</span>
+            </li>
+            <li>
+                <label for="apellido">Apellido:</label>
+                <span id="apellido">Ramos Alvarado</span>
+            </li>
+            <li>
+                <label for="edad">Edad:</label>
+                <span id="edad">17 años</span>
+            </li>
+            <li>
+                <label for="correo">Correo Electrónico:</label>
+                <span id="correo">ramosjose21b@cancuntresbonfil.edu.mx</span>
+            </li>
+            <li>
+                <label for="telefono">Teléfono:</label>
+                <span id="telefono">99272782677</span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+</body></html>
